@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      " I don’t want to ASSOCIATE with you: Building the Rails App Project"
-date:       2020-04-18 03:16:39 +0000
+date:       2020-04-17 23:16:40 -0400
 permalink:  i_don_t_want_to_associate_with_you_building_the_rails_app_project
 ---
 
@@ -14,7 +14,7 @@ So, I can’t use a regular has_many/belongs_to relationship between the Wizard 
 
 I drew this work of art when starting my project to understand the type of data associations I was setting up. 
 
-![ass_ociations_photo](https://ibb.co/PwB1Q3m)
+![ass_ociations_photo](<a href="https://ibb.co/PwB1Q3m"><img src="https://i.ibb.co/XSmF8N2/IMG-3108.jpg" alt="IMG-3108" border="0" /></a>)
 
 I’m not quitting class to become an artist or anything. 
 
