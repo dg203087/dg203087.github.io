@@ -82,8 +82,8 @@ A few key elements I learned while accomplishing this:
 2.	The form is submitted to the `courses_path` – same page! We’re not going anywhere. Took me second to think about but makes total sense. 
 
 Fun. Below are a few places on the interwebs that were particularly helpful. 
-* This Flatiron grad Megan had a similar problems and explained it thoroughly: [](https://dev.to/mwong068/adding-a-basic-search-form-in-rails-5hnl)
-* This developer Melvin who goes deep about using SQL for searches: [](https://melvinchng.github.io/rails/SearchFeature.html#chapter-4-search-feature)
+* This Flatiron grad Megan had a similar problem and explained it thoroughly: [Link](https://dev.to/mwong068/adding-a-basic-search-form-in-rails-5hnl)
+* This developer Melvin who goes deep about using SQL for searches: [Link](https://melvinchng.github.io/rails/SearchFeature.html#chapter-4-search-feature)
 
 
 
