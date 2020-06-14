@@ -1,15 +1,15 @@
 ---
 layout: post
 title:      "How are are these connected? Javascript and Rails Project"
-date:       2020-06-14 16:41:52 +0000
+date:       2020-06-14 12:41:53 -0400
 permalink:  how_are_are_these_connected_javascript_and_rails_project
 ---
 
-My Make Inspiration App was inspired by John Oliver's [Definitely Real Quotes](http://www.definitelyrealquotes.com/). In his segment from a few year's back John discussed politicians use fake quotes (either intentionally or not, it doesn't matter) to support their (usually completely infuriating) beliefs. I thought it would be fun to use a madlibs-like premise to create funny, inspirational quotes that can be shared like the real thing! Ridiculous nature photo backgrounds and all!
+My Make Inspiration App was inspired by John Oliver's [Definitely Real Quotes](http://www.definitelyrealquotes.com/). In his segment from a few year's back John discussed politicians using fake quotes (either intentionally or not, it doesn't matter) to support their (usually completely infuriating) beliefs. I thought it would be fun to use a madlibs-like premise to create funny, inspirational quotes that can be shared like the real thing! Ridiculous nature photo backgrounds and all!
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2ViZipJUcD0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-The most challenging part of this Javascript and Rails project was connecting the two parts - a Javascript based frontend and Rails API backend. My project connects a Rails API, which holds a random collection of quote Templates, to my Javascript frontend, which takes in three words to be entered mad-lib style into the Template. This new Quote is then posted back to the database. Lots of back and forth there! 
+The most challenging part of this Javascript and Rails project was connecting the two parts - a Javascript based frontend and Rails API backend. My project connects a Rails API, which holds a random collection of quote Templates, to my Javascript frontend, which takes in three words to be entered mad-libs style into the Template. This new Quote is then posted back to the database. Lots of back and forth there! 
 
 The magic begins with a FETCH request: 
 
