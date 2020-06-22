@@ -11,7 +11,7 @@ My Make Inspiration App was inspired by John Oliver's [Definitely Real Quotes](h
 
 The most challenging part of this Javascript and Rails project was connecting the two parts - a Javascript based frontend and Rails API backend. My project connects a Rails API, which holds a random collection of quote Templates, to my Javascript frontend, which takes in three words to be entered mad-libs style into the Template. This new Quote is then posted back to the database. Lots of back and forth there! 
 
-The magic begins with a FETCH request: 
+The magic begins with a FETCH request for a random template:
 
 ```
 function fetchRandomTemplate() {
@@ -23,10 +23,11 @@ function fetchRandomTemplate() {
       let templateImage = randomTemplateId.image_url
   })
 	
-   //renders temporaty template
+   //renders temporary template
 }
 ```
-This requests selects a random Template object, which consists of content and an image, to be manipulated in our front end. The template is then associated to the final Quote. (A Template ```has_many``` Quotes, because Templates can be reused multiple times.)
+
+This requests selects a random Template, which consists of content (a quote that needs to be filled in) and an image, to be manipulated in our front end. The template is then associated to the final Quote. (A Template ```has_many``` Quotes, because Templates can be reused multiple times.)
 
 Then, I used Javascript to receive input values from my HTML form. 
 
@@ -42,7 +43,7 @@ function createFormHandler(e) {
 }
 ```
 
-This info is used to ```updateQuote( )``` and persisted to the database using a PATCH request. 
+The noun, verb, and adjective are used to ```updateQuote( )``` and persisted to the database using a PATCH request which creates a new ```Quote``` object. 
 
 ```
 function postQuote(quoteID, newQuote, new_adj, new_noun, new_verb) {
