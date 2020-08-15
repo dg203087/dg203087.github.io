@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "The Costume Exchange! Final React/Redux Project"
-date:       2020-08-15 22:47:44 +0000
+date:       2020-08-15 18:47:44 -0400
 permalink:  the_costume_exchange_final_react_redux_project
 ---
 
