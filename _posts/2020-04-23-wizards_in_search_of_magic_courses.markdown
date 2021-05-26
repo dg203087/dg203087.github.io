@@ -6,10 +6,12 @@ permalink:  wizards_in_search_of_magic_courses
 ---
 
 
-For the coding challenge during my Rails assessment, I was asked to add filtering functionality to the index page of my application. On the course index page, Wizards can view a full list of the courses available during my upcoming Wizard Retreat Weekend. The course list could eventually become long and having search functionality could come in handy. 
+My Rails app is a user registration system for my upcoming Wizard Retreat Weekend. Away from my developer life, I organize the NYC Harry Potter Meetup (The Group That Shall Not Be Named) and we are planning weekend retreat for our members. Wizards (users) who sign up for the retreat on the app can register for courses as well as edit or cancel their registrations. (Quidditch, anyone?) 
+
+On the course index page, Wizards can view a full list of the courses available during the weekend. The course list could eventually become long and having search/filtering functionality could come in handy. 
 
 After giving it a moment of thought, I knew that I would need to:
-1. Add some sort of form to my index view
+1. Add a form to my index view
 2. Use an Active Record scope method in my Course model to filter by NAME
 3. Call the action in my controller
 
@@ -77,7 +79,7 @@ Finally, I added a form to my view.
 
 A few key elements I learned while accomplishing this: 
 1.	Use a GET request. Nothing is persisted to the database so a POST method is not needed. 
-2.	The form is submitted to the `courses_path` – same page! We’re not going anywhere. Took me second to think about but makes total sense. 
+2.	The form is submitted to the `courses_path` – same page! No need to navigate to another page, we’re not going anywhere!
 
 *Big thanks to this developer Melvin who delves deep into the world of SQL for searches: [Link](https://melvinchng.github.io/rails/SearchFeature.html#chapter-4-search-feature)
 
