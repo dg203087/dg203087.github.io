@@ -14,7 +14,7 @@ So, I can’t use a regular has_many/belongs_to relationship between the Wizard 
 
 I drew this work of art when starting my project to understand the type of data associations I was setting up. 
 
-![ass_ociations_photo](<a href="https://ibb.co/PwB1Q3m"><img src="https://i.ibb.co/XSmF8N2/IMG-3108.jpg" alt="IMG-3108" border="0" /></a>)
+<a href="https://ibb.co/PwB1Q3m"><img src="https://i.ibb.co/XSmF8N2/IMG-3108.jpg" alt="IMG-3108" border="0" /></a>
 
 I’m not quitting class to become an artist or anything. 
 
