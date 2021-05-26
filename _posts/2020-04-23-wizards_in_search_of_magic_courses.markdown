@@ -17,7 +17,7 @@ After giving it a moment of thought, I knew that I would need to:
 
 **MODEL **
 
-All the documentation suggested I start with creating a search method in my model first even though it was my instinct to start with the view. 
+I started with creating a search method in my model first. 
 
 My `.search` method would be a class method because it is called on the Course. The method accepts one variable `search_name`, that is, whatever the user types into the search, and then immediately verifies the variable’s existence. If nothing is typed the search bar all instances of Course will still appear – which is established in an if statement. 
 
@@ -31,7 +31,7 @@ def self.search(search_name)
 end
 ```
 
-Now that I had my if statement set up, there were multiple ways I could search for matching instances of Course. I had to decide what kind of functionality I wanted my page to have. I could search for EXACT matches by using the Course.find_by. The find_by method will review all instances Course and return the one(s) with the name attribute that match exactly.  
+Now that I had my if statement set up, there were multiple ways I could search for matching instances of Course. I had to decide what kind of functionality I wanted my page to have. I could search for EXACT matches by using Course.find_by. The find_by method will review all instances Course and return the one(s) with the name attribute that match exactly.  
 
 ```
 this_course = Course.find_by(name: search_name)
