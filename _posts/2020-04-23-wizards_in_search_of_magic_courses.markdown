@@ -8,7 +8,7 @@ permalink:  wizards_in_search_of_magic_courses
 
 My Rails app is a user registration system for my upcoming Wizard Retreat Weekend. Away from my developer life, I organize the NYC Harry Potter Meetup (The Group That Shall Not Be Named) and we are planning weekend retreat for our members. Wizards (users) who sign up for the retreat on the app can register for courses as well as edit or cancel their registrations. (Quidditch, anyone?) 
 
-On the course index page, Wizards can view a full list of the courses available during the weekend. The course list could eventually become long and having search/filtering functionality could come in handy. 
+On the course index page, Wizards can view a full list of the courses available during the weekend. The course list could eventually become long, so I decided to add search functionality.  
 
 After giving it a moment of thought, I knew that I would need to:
 1. Add a form to my index view
